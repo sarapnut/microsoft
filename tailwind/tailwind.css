@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.borderbot{
+    border-bottom:1px solid #e1e1e1;
+}
+
+
+.bgmen{
+    background-color:#ECECEC;
+}
+
+#hamb:checked ~ header>div.one>div.two{
+    left:0%;
+}
+#hambclose:checked ~ header>div.one>div.two{
+    left:-100%;
+}
+
+.borderrad{
+    border:1px solid black;  
+    border-radius:50%;
+}
+#sub:checked ~ header>div.three>ul>div.four>div.five{
+    left:10%;
+}
+#subclose:checked ~ header>div.three>ul>div.four>div.five{
+    left:-100%;
+}
+input{
+    display:none;   
+}
+.bggreen{
+    background-color:#9BF00B;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.bgimg{
+
+    backgroundmage:url('../img/Highlight-Surface-Essentials-Laptop-MS365-MSComplete-FY25BTS_VP5-1920x600.avif');
+height:100px;
+    width:100px;
+}
+.h300{
+    height:350px;
+}
+.h600{
+    height:600px;
+}
+.h500{
+    height:500px; 
+}
+
+.left300{
+    left:500px;
+}
+
+.left80{
+    left:85%;
+}
+
+.w500{
+    width:1000px;
+}
