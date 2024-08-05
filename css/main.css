@@ -594,8 +594,12 @@ video {
   left: 1rem;
 }
 
-.left-60 {
-  left: 15rem;
+.left-48 {
+  left: 12rem;
+}
+
+.left-52 {
+  left: 13rem;
 }
 
 .right-11 {
@@ -616,38 +620,6 @@ video {
 
 .top-4 {
   top: 1rem;
-}
-
-.right-3\/4 {
-  right: 75%;
-}
-
-.left-3\/4 {
-  left: 75%;
-}
-
-.left-1\/4 {
-  left: 25%;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.left-5 {
-  left: 1.25rem;
-}
-
-.left-56 {
-  left: 14rem;
-}
-
-.left-52 {
-  left: 13rem;
-}
-
-.left-48 {
-  left: 12rem;
 }
 
 .z-50 {
@@ -930,10 +902,6 @@ video {
   gap: 3rem;
 }
 
-.gap-20 {
-  gap: 5rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
@@ -948,14 +916,6 @@ video {
 
 .gap-7 {
   gap: 1.75rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-28 {
-  gap: 7rem;
 }
 
 .overflow-hidden {
@@ -1293,12 +1253,12 @@ input{
     width: 75%;
   }
 
-  .\33xs\:w-full {
-    width: 100%;
-  }
-
   .\33xs\:w-5\/6 {
     width: 83.333333%;
+  }
+
+  .\33xs\:w-full {
+    width: 100%;
   }
 
   .\33xs\:flex-col {
@@ -1309,10 +1269,6 @@ input{
     flex-wrap: wrap;
   }
 
-  .\33xs\:flex-nowrap {
-    flex-wrap: nowrap;
-  }
-
   .\33xs\:justify-start {
     justify-content: flex-start;
   }
@@ -1320,19 +1276,9 @@ input{
   .\33xs\:gap-24 {
     gap: 6rem;
   }
-
-  @media (min-width: 440px) {
-    .\33xs\:2xs\:flex-row {
-      flex-direction: row;
-    }
-  }
 }
 
 @media (min-width: 440px) {
-  .\32xs\:bottom-20 {
-    bottom: 5rem;
-  }
-
   .\32xs\:block {
     display: block;
   }
@@ -1345,20 +1291,12 @@ input{
     width: 40%;
   }
 
-  .\32xs\:w-5\/6 {
-    width: 83.333333%;
-  }
-
   .\32xs\:w-full {
     width: 100%;
   }
 
   .\32xs\:flex-row {
     flex-direction: row;
-  }
-
-  .\32xs\:flex-wrap {
-    flex-wrap: wrap;
   }
 
   .\32xs\:justify-center {
